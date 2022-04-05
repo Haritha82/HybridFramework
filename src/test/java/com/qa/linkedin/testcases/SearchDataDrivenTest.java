@@ -52,7 +52,7 @@ llPg=lhmPg.doLogin(readPropertyValue("username"), readPropertyValue("pwd"));
 	log.debug("Type the value "+s+" in Search editbox");
 	srPg=llPg.doPeopelSearch(s);
 	log.debug("fetch the search results count for:"+ s);
-	long count=srPg.getResultsCount();
+	long count=srPg.getResultsCount(); 
 	
 	log.debug("search resuslts count for:"+s+" is:"+count);
 	log.debug("click on Home tab");

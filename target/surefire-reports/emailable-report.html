@@ -9,53 +9,14 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">HybridFrameworkSuite</th></tr>
-<tr><td><a href="#t0">HybridFrameworkTest</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">108,625</td><td></td><td></td></tr>
+<tr><td><a href="#t0">HybridFrameworkTest</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">35,909</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">HybridFrameworkSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">HybridFrameworkTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qa.linkedin.testcases.SearchDataDrivenTest</td><td><a href="#m0">logoutTest</a></td><td rowspan="1">1648812786016</td><td rowspan="1">63591</td></tr><tr><th colspan="4">HybridFrameworkTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.linkedin.testcases.SearchDataDrivenTest</td><td><a href="#m1">afterClass</a></td><td rowspan="1">1648812850358</td><td rowspan="1">0</td></tr><tr><th colspan="4">HybridFrameworkTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.qa.linkedin.testcases.SearchDataDrivenTest</td><td><a href="#m2">doLoginTest</a></td><td rowspan="1">1648812741199</td><td rowspan="1">10558</td></tr><tr class="passedeven"><td><a href="#m3">dosearchPeopleTest</a></td><td rowspan="4">1648812753242</td><td rowspan="4">7772</td></tr><tr class="passedeven"><td><a href="#m4">dosearchPeopleTest</a></td></tr><tr class="passedeven"><td><a href="#m5">dosearchPeopleTest</a></td></tr><tr class="passedeven"><td><a href="#m6">dosearchPeopleTest</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">HybridFrameworkSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">HybridFrameworkTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.qa.linkedin.testcases.SearchDataDrivenTest</td><td><a href="#m0">doLoginTest</a></td><td rowspan="1">1649080509933</td><td rowspan="1">9254</td></tr><tr class="passedeven"><td><a href="#m1">dosearchPeopleTest</a></td><td rowspan="4">1649080519805</td><td rowspan="4">6372</td></tr><tr class="passedeven"><td><a href="#m2">dosearchPeopleTest</a></td></tr><tr class="passedeven"><td><a href="#m3">dosearchPeopleTest</a></td></tr><tr class="passedeven"><td><a href="#m4">dosearchPeopleTest</a></td></tr></tbody>
 </table>
-<h2>HybridFrameworkTest</h2><h3 id="m0">com.qa.linkedin.testcases.SearchDataDrivenTest#logoutTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //a[@class=&apos;global-nav__secondary-link mv1&apos;][contains(.,&apos;Sign Out&apos;)]&apos; (tried for 45 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.qa.linkedin.pages.LinkedinLoggedinPage.doLogOut(LinkedinLoggedinPage.java:58)
-	at com.qa.linkedin.testcases.SearchDataDrivenTest.logoutTest(SearchDataDrivenTest.java:83)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;global-nav__secondary-link mv1&apos;][contains(.,&apos;Sign Out&apos;)]&quot;}
-  (Session info: chrome=100.0.4896.60)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;DESKTOP-F9KHF51&apos;, ip: &apos;192.168.29.187&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03d9d643e8b7becaba5182fd7c10f21b, findElement {using=xpath, value=//a[@class=&apos;global-nav__secondary-link mv1&apos;][contains(.,&apos;Sign Out&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\naren\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60679/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 03d9d643e8b7becaba5182fd7c10f21b
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 31 more
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.qa.linkedin.testcases.SearchDataDrivenTest#afterClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.qa.linkedin.testcases.SearchDataDrivenTest#doLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.qa.linkedin.testcases.SearchDataDrivenTest#dosearchPeopleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Sridevi</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.qa.linkedin.testcases.SearchDataDrivenTest#dosearchPeopleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Muniraj</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.qa.linkedin.testcases.SearchDataDrivenTest#dosearchPeopleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Sathvik</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.qa.linkedin.testcases.SearchDataDrivenTest#dosearchPeopleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>sagar</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>HybridFrameworkTest</h2><h3 id="m0">com.qa.linkedin.testcases.SearchDataDrivenTest#doLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.linkedin.testcases.SearchDataDrivenTest#dosearchPeopleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Sridevi</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.linkedin.testcases.SearchDataDrivenTest#dosearchPeopleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Muniraj</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.linkedin.testcases.SearchDataDrivenTest#dosearchPeopleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Sathvik</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.linkedin.testcases.SearchDataDrivenTest#dosearchPeopleTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>sagar</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 115.511 sec <<< FAILURE! - in TestSuite
-logoutTest(com.qa.linkedin.testcases.SearchDataDrivenTest)  Time elapsed: 71.28 sec  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='global-nav__secondary-link mv1'][contains(.,'Sign Out')]' (tried for 45 second(s) with 500 milliseconds interval)
-	at com.qa.linkedin.testcases.SearchDataDrivenTest.logoutTest(SearchDataDrivenTest.java:83)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='global-nav__secondary-link mv1'][contains(.,'Sign Out')]"}
-  (Session info: chrome=100.0.4896.60)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'DESKTOP-F9KHF51', ip: '192.168.29.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03d9d643e8b7becaba5182fd7c10f21b, findElement {using=xpath, value=//a[@class='global-nav__secondary-link mv1'][contains(.,'Sign Out')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\naren\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60679/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 03d9d643e8b7becaba5182fd7c10f21b
-	at com.qa.linkedin.testcases.SearchDataDrivenTest.logoutTest(SearchDataDrivenTest.java:83)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.917 sec - in TestSuite
